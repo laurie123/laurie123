@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>
+      St Andrews Arabic Study Abroad - Forms - Handbooks
+    </title>
+    <link rel="stylesheet" type="text/css" href="arabic_website_css2.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.1.js"></script>
+  </head>
+
+    <header>
+    <h1>St Andrews
+      <BR>
+        Arabic Study Abroad</h1>
+  </header>
+
+   <div id="left"></div>
+      <div id="right"></div>
+      <div id="top"></div>
+      <div id="bottom"></div>
+
+  <body>
+  	<nav>
+    <ul>
+        <li><a href="arabic_website_homepage2.html">Home</a></li>
+        <li class="dropdown">
+            <a href="#">Locations</a>
+            <ul class="sub-menu">
+                <li><a href="arabic_website_qatar.html">Qatar</a></li>
+                 <li><a href="arabic_website_jordan.html">Jordan</a></li>
+                <li class="dropdown">
+                    <a href="#">Morocco</a>
+                    <ul class="sub-menu">
+                        <li><a href="arabic_website_rabat.html">Rabat</a></li>
+                        <li class="dropdown">
+                            <a href="arabic_website_fes.html">Fes</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                 <li><a href="arabic_website_resources.html">Resources</a></li>
+                	<li class="dropdown">
+            <a href="#">Forms</a>
+            <ul class="sub-menu">
+                <li><a href="arabic_website_studyabroadforms.html">Documentation</a></li>
+                 <li><a href="arabic_website_handbooks.html">Handbooks</a></li>
+                    </ul>
+                </li>
+                <li><a href="arabic_website_contact.html">Contact</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+Handbooks
+
+<script>
+$(document).ready(function() {
+    $( '.dropdown' ).hover(
+        function(){
+            $(this).children('.sub-menu').slideDown(200);
+        },
+        function(){
+            $(this).children('.sub-menu').slideUp(200);
+        }
+    );
+}); 
+</script>
