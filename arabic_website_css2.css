@@ -34,6 +34,7 @@ body {
     font-size: 350%;
 }
 
+/*Homepage images format */
 .img-circle{
     margin:0px;
     width: 350px;
@@ -56,6 +57,7 @@ body {
     float: middle;  
 }
 
+/*formatting for getting table alignment for text and images on same row */
 .Row
 {
     display: table;
@@ -69,12 +71,37 @@ body {
     display: table-cell;
 }
 
+.row2 {
+    padding-left: 80px;
+}
+
 #table1 { 
     font-family: "arabicfontfour";
     font-size: 25px;
     text-align: center;
 }
 
+#table2 { 
+    font-family: "arabicfontfour";
+    font-size: 25px;
+    text-align: center;
+    padding-left:50px;
+    padding-bottom: 70px;
+}
+
+.qatar_img {
+    padding-bottom: 250px;
+    padding-left: 50px;
+}
+
+.qatar_img2 {
+    padding-bottom: 250px;
+}
+
+.rabat_img {
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
 /*border*/ 
 #top, #bottom, #left, #right {
     background-image: url('mosaic3.jpg');
