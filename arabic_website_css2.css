@@ -34,6 +34,20 @@ body {
     font-size: 350%;
 }
 
+.p2 {
+    color: black;
+    font-family: "arabicfontfour";
+    text-align: center;
+    font-size: 200%;
+}
+
+.p3 {
+    color: black;
+    font-family: "arabicfontfour";
+    text-align: center;
+    font-size: 150%;
+}
+
 /*Homepage images format */
 .img-circle{
     margin:0px;
@@ -209,13 +223,6 @@ ul.sub-menu2 {
     display:none;
 }
 /*fonts*/
-@font-face {font-family: Arabicfontone;
-            src: url(arabicfontone.ttf);
-        }
-
-@font-face {font-family: Arabicfonttwo;
-            src: url(arabicfonttwo.otf);
-        }
 
 @font-face {font-family: Arabicfontthree;
             src: url(arabicfontthree.ttf);
@@ -223,8 +230,4 @@ ul.sub-menu2 {
 
  @font-face {font-family: Arabicfontfour;
             src: url(arabicfontfour.otf);
-        }
-
-@font-face {font-family: Arabicfontfive;
-            src: url(arabicfontfive.ttf);
         }
